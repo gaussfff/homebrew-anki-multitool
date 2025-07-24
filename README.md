@@ -1,3 +1,5 @@
+![homenrew anki multitool logo](https://github.com/gaussfff/homebrew-anki-multitool/blob/master/resources/homebrew_tap_multitool.png)
+
 # Homebrew tap for Anki Multitool
 
 Hobebrew tap for Anki Multitool, that allows you to install Anki Multitool on macOS using Homebrew.
