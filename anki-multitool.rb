@@ -1,13 +1,19 @@
 class AnkiMultitool < Formula
     desc "Just useful multitool for Anki users"
     homepage "https://github.com/gaussfff/anki-multitool"
-    version "0.0.1"
+    url "https://github.com/gaussfff/anki-multitool/releases/latest/download/anki-mtool-macos-aarch64.tar.gz"
 
     on_macos do
-        # TODO: implement
+        if Hardware::CPU.arm?
+            # URL is set above for ARM64 macOS
+        end
     end
-    
-    on_linux do
-        # TODO: implement
+
+    def install
+        bin.install "anki-mtool"
+    end
+
+    test do
+        system "#{bin}/anki-mtool", "help"
     end
 end
