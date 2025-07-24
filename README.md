@@ -11,4 +11,5 @@ Main repository of Anki Multitool you can find [here](https://github.com/gaussff
 brew tap gaussfff/anki-multitool
 brew install anki-multitool
 ```
-
+## License
+This software is under the MIT license. See details in [license file](https://github.com/gaussfff/homebrew-anki-multitool/blob/master/LICENSE-MIT).
